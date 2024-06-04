@@ -1,0 +1,71 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* или любой цвет фона, который вы выбрали */
+}
+
+.register-box {
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+button {
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffcc00; /* цвет фона кнопки */
+    color: #000; /* цвет текста кнопки */
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: opacity 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.login-redirect {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.login-redirect a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.login-redirect a:hover {
+    color: #fff;
+}
+
+.server-error-message p {
+    color: red;
+}
