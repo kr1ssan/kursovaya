@@ -1,0 +1,81 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.navbar-links a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+.btn-secondary {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    background-color: #333333;
+    color: #ffcc00;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #fff;
+    color: #121212;
+}
+
+.header-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333;
+}
+
+.main-title {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.main-subtitle {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-main {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ffcc00;
+    color: #121212;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.btn-main:hover {
+    background-color: #ffd700;
+}
